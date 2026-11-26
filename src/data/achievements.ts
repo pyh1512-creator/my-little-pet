@@ -1,0 +1,75 @@
+import { AchievementDefinition } from '../types/game';
+
+export const ACHIEVEMENTS: AchievementDefinition[] = [
+  {
+    id: 'ach_first_adopt',
+    title: '축! 집사 취직',
+    description: '첫 번째 반려동물을 입양했습니다. 이제 되돌릴 수 없습니다.',
+    icon: '🏠',
+    rewardCoins: 50,
+  },
+  {
+    id: 'ach_first_feed',
+    title: '첫 끼 조공 완료',
+    description: '펫에게 처음으로 밥을 주었습니다.',
+    icon: '🍽️',
+    rewardCoins: 30,
+  },
+  {
+    id: 'ach_click_10',
+    title: '손이 근질근질',
+    description: '3D 펫을 10번 이상 터치해 반응을 이끌어냈습니다.',
+    icon: '👆',
+    rewardCoins: 40,
+  },
+  {
+    id: 'ach_level_4',
+    title: '첫 번째 진화!',
+    description: '레벨 4를 달성해 펫의 숨겨진 본성이 깨어났습니다.',
+    icon: '🌟',
+    rewardCoins: 100,
+  },
+  {
+    id: 'ach_level_8',
+    title: '임원급 펫의 탄생',
+    description: '레벨 8 달성! 이제 집사는 완전히 하급 직원입니다.',
+    icon: '🕶️',
+    rewardCoins: 200,
+  },
+  {
+    id: 'ach_event_3',
+    title: '황당한 일상 적응기',
+    description: '황당한 랜덤 이벤트를 3회 이상 해결했습니다.',
+    icon: '⚡',
+    rewardCoins: 80,
+  },
+  {
+    id: 'ach_minigame_2',
+    title: '코미디 게임 장인',
+    description: '미니게임을 2회 이상 플레이했습니다.',
+    icon: '🎮',
+    rewardCoins: 70,
+  },
+  {
+    id: 'ach_interior',
+    title: '거실 인테리어 디자이너',
+    description: '펫 룸에 가구나 장식을 2개 이상 배치했습니다.',
+    icon: '🛋️',
+    rewardCoins: 90,
+  },
+  {
+    id: 'ach_rich_500',
+    title: '간식 재벌 집사',
+    description: '보유 코인 500코인을 달성했습니다.',
+    icon: '💰',
+    rewardCoins: 100,
+  },
+  {
+    id: 'ach_ego_95',
+    title: '우주 중심 자존감',
+    description: '펫의 자존감이 95 이상에 도달했습니다.',
+    icon: '👑',
+    rewardCoins: 80,
+    secret: true,
+  },
+];
